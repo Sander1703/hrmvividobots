@@ -141,8 +141,8 @@ def add_employee(user_id):
 def send_email(email, password, eid):
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    sender_email = 'sandeep17rot@gmail.com'
-    sender_password = 'cjtssnzgzhvgvndi'
+    sender_email = 'vividobots@gmail.com'
+    sender_password = 'auensrlcmhgwmygc'
 
     subject = 'Account Created'
     body = f'Your account has been created.\nEmployee ID: {eid}\n Create your password in new password'
@@ -457,8 +457,8 @@ def generate_otp(length=6):
 def send_otp_email(recipient_email, otp):
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    sender_email = 'sandeep17rot@gmail.com'
-    sender_password = 'cjtssnzgzhvgvndi'
+    sender_email = 'vividobots@gmail.com'
+    sender_password = 'auensrlcmhgwmygc'
 
     message = MIMEMultipart()
     message['Subject'] = 'Password Reset OTP'
